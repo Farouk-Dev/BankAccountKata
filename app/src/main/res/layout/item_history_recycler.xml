@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_FFFFFF"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/operation_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/operation_" />
+
+    <TextView
+        android:id="@+id/amount_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/operation_textview"
+        android:layout_marginTop="10dp"
+        android:layout_toStartOf="@+id/operation_textview"
+        android:text="@string/amount_" />
+
+    <TextView
+        android:id="@+id/balance_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/operation_textview"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/operation_textview"
+        android:text="@string/balance_" />
+
+    <TextView
+        android:id="@+id/date_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/balance_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/date_" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/date_textview"
+        android:background="@color/red_B9121B"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>

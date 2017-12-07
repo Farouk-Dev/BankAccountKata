@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/red_B9121B"
+        android:text="@string/printing_statement" />
+
+    <TextView
+        android:id="@+id/client_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_textview"
+        android:text="@string/client_farouk_jabberi" />
+
+
+
+    <TextView
+        android:id="@+id/date_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/client_textview"
+        tools:text="@string/date_" />
+
+    <TextView
+        android:id="@+id/operation_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_textview"
+        tools:text="@string/operation_" />
+
+    <TextView
+        android:id="@+id/amount_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/operation_textview"
+        tools:text="@string/amount_" />
+
+    <TextView
+        android:id="@+id/balance_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amount_textview"
+        tools:text="@string/balance_" />
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/red_B9121B"
+        android:text="@string/operation_fragment" />
+
+    <Spinner
+        android:id="@+id/operation_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/title"/>
+
+    <EditText
+        android:id="@+id/amount_editext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@+id/operation_spinner"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_25"
+        android:hint="Amount (€)"/>
+
+    <Button
+        android:id="@+id/proceed_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/amount_editext"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="@string/proceed" />
+</RelativeLayout>

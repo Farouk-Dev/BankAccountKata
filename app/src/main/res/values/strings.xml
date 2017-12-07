@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Bank Account Kata</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="account_history">Account History</string>
+    <string name="operation">Operation</string>
+    <string name="deposit">Deposit</string>
+    <string name="withdrawal">Withdrawal</string>
+    <string name="farouk_jabberi">Farouk Jabberi</string>
+    <string name="jabberi_contact_gmail_com">jabberi.contact@gmail.com</string>
+    <string name="welcome_farouk_jabberi">Welcome Farouk Jabberi</string>
+    <string name="your_account_balance">Your Account Balance :</string>
+    <string name="operation_fragment">Operation Fragment</string>
+    <string name="proceed">Proceed</string>
+    <string name="euro">€</string>
+    <string name="select_an_operation_please">select an Operation Please</string>
+    <string name="your_new_balance_is">Your New Balance :</string>
+    <string name="noting" />
+    <string name="operation_">Operation :</string>
+    <string name="amount_">Amount :</string>
+    <string name="balance_">Balance :</string>
+    <string name="date_">Date :</string>
+    <string name="statement_fragment">statement Fragment</string>
+    <string name="date">Date :</string>
+    <string name="printing_statement">Printing Statement</string>
+    <string name="client_">Client :</string>
+    <string name="client_farouk_jabberi">Client : Farouk Jabberi</string>
+    <string name="history_fragment">History Fragment</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="you_account_must_be_less_than">Your Amount Must be Less than</string>
+    <string name="space" />
+</resources>
