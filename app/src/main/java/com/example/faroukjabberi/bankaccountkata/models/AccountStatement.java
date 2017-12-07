@@ -14,7 +14,6 @@ public class AccountStatement extends RealmObject implements Parcelable {
     private String amount;
     private String balance;
     private String operation;
-    private int a;
 
     public AccountStatement(String date, String amount, String balance, String operation) {
         this.date = date;
